@@ -34,7 +34,6 @@ setup(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
     ],
-    license="MIT",
     description=description,
     long_description=fread('README.md'),
     author='JackeyGao',
