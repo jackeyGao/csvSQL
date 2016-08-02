@@ -147,7 +147,7 @@ class CSVHandler(object):
             sys.stdout.write(table.table + '\n')
 
 
-def handle_command_line(argv):
+def handle_command_line():
     """
     命令入口方法
     """
@@ -166,4 +166,4 @@ def signal_handler(signal, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 if __name__ == '__main__':
-    handle_command_line(sys.argv)
+    handle_command_line()
