@@ -24,3 +24,18 @@ Loaded 57 rows into t(name, position, office, age, start_date, salary)
 +----------+
 > 
 ```
+
+## 特别说明
+
+衍生于: [csv-sql](https://github.com/alex/csv-sql)
+感谢: [alex](https://github.com/alex)
+
+**衍生功能:**
+
+* 优化bom带来的第一列列名不显示bug
+* 支持UTF-8 
+* 优化命令形式及传参方式
+
+
+
+
