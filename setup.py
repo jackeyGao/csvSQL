@@ -6,8 +6,9 @@ mail: gaojunqi@outlook.com
 Created Time: 二  8/ 2 15:27:49 2016
 '''
 from setuptools import setup, find_packages
-from csvsql import __version__ as version, __doc__ as description
 
+version = '0.1'
+description = "csvSQL 可以让你通过SQL来查看csv文件数据"
 
 def fread(filepath):
     with open(filepath, 'r') as f:
