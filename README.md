@@ -4,7 +4,7 @@ csvSQL
 csvSQL 可以让你通过SQL来查看csv文件数据
 
 ```bash
-$ csvsql -f test.csv
+ csvsql -f test.csv
 Loaded 57 rows into t(name, position, office, age, start_date, salary)
 > select * from t limit 5;
 +----------------+-------------------------------+---------------+------+------------+------------+
@@ -16,5 +16,11 @@ Loaded 57 rows into t(name, position, office, age, start_date, salary)
 | Bradley Greer  | Software Engineer             | London        | 41.0 | 2012/10/13 | $132,000   |
 | Brenden Wagner | Software Engineer             | San Francisco | 28.0 | 2011/06/07 | $206,850   |
 +----------------+-------------------------------+---------------+------+------------+------------+
->
+> select count(*) from t;
++----------+
+| count(*) |
++----------+
+| 57       |
++----------+
+> 
 ```
