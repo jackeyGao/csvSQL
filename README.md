@@ -39,5 +39,12 @@ Loaded 57 rows into t(name, position, office, age, start_date, salary)
 * 优化命令形式及传参方式
 
 
+## 安装使用
 
+```shell
+$ git clone https://github.com/jackeyGao/csvSQL
+$ cd csvSQL
+$ python setup.py install
+$ csvsql -f test.csv
+```
 
