@@ -4,7 +4,7 @@ csvSQL
 csvSQL 可以让你通过SQL来查看csv文件数据
 
 ```bash
- csvsql -f test.csv
+$ csvsql -f test.csv
 Loaded 57 rows into t(name, position, office, age, start_date, salary)
 > select * from t limit 5;
 +----------------+-------------------------------+---------------+------+------------+------------+
@@ -28,7 +28,9 @@ Loaded 57 rows into t(name, position, office, age, start_date, salary)
 ## 特别说明
 
 衍生于: [csv-sql](https://github.com/alex/csv-sql)
+
 感谢: [alex](https://github.com/alex)
+
 
 **衍生功能:**
 
